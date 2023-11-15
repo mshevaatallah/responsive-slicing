@@ -158,3 +158,54 @@
     width: 80%;
   }
 }
+
+.section-kedua {
+  margin-top: 80px;
+}
+
+.fitur {
+  display: flex;
+}
+
+.fitur-title {
+  font-size: 25px;
+  font-weight: 900;
+  max-width: 20%;
+}
+
+.fitur-item {
+  display: flex;
+  margin-left: 50px;
+}
+
+.fitur-about {
+  max-width: 40%;
+}
+
+.kanan-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.kanan-fitur {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .fitur {
+    flex-direction: column;
+  }
+
+  .fitur-item {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .fitur-title {
+    max-width: 60%;
+  }
+
+  .fitur-about {
+    max-width: 80%;
+  }
+}
